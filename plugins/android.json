@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "net.winterly.keeweb.android"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "net.winterly.keeweb.android"
+        },
+        "cordova-plugin-android-fingerprint-auth": {
+            "PACKAGE_NAME": "net.winterly.keeweb.android"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "net.winterly.keeweb.android"
+        }
+    }
+}
