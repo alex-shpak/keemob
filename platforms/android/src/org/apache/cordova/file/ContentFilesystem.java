@@ -162,7 +162,7 @@ public class ContentFilesystem extends Filesystem {
 	}
 
     /**
-     * Modified
+     * Partial changes Alex Shpak
      */
 	@Override
 	public long writeToFileAtURL(LocalFilesystemURL inputURL, String data,
