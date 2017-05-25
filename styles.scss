@@ -25,6 +25,15 @@ html, body {
     line-height: 1.5em;
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+}
+
 .pure-g [class*=pure-u] {
     font-family: $font-family;
 }
@@ -66,14 +75,6 @@ html, body {
         }
     }
     
-    h1 {
-        font-size: 3rem;
-        font-weight: 400;
-    }
-
-    h2 {
-        font-weight: 400;
-    }
 
     .frame img {
         width: 100%;
@@ -86,10 +87,11 @@ html, body {
     width: 120%;
     position: absolute;
     left: -10%;
-    top: $head-size - 64px;
+    top: $head-size;
     background: #FFF;
-    transform: rotate(2.5deg);
-    transform-origin: left top;
+    transform: rotate(1deg);
+    transform-origin: right top;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5)
 }
 
 .content {

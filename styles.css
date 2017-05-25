@@ -12,6 +12,13 @@ html, body {
   color: #333333;
   line-height: 1.5em; }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 400; }
+
+h2 {
+  font-weight: 400; }
+
 .pure-g [class*=pure-u] {
   font-family: "Rajdhani", sans-serif; }
 
@@ -43,11 +50,6 @@ html, body {
     .head .icon i {
       font-size: 3em;
       margin: 0.33em; }
-  .head h1 {
-    font-size: 3rem;
-    font-weight: 400; }
-  .head h2 {
-    font-weight: 400; }
   .head .frame img {
     width: 100%;
     margin-top: 2em; }
@@ -57,10 +59,11 @@ html, body {
   width: 120%;
   position: absolute;
   left: -10%;
-  top: 436px;
+  top: 500px;
   background: #FFF;
-  transform: rotate(2.5deg);
-  transform-origin: left top; }
+  transform: rotate(1deg);
+  transform-origin: right top;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5); }
 
 .content {
   padding: 3em 0em; }
