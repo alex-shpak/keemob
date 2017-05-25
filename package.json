@@ -1,0 +1,19 @@
+{
+    "name": "net.winterly.keeweb.android",
+    "version": "v1.2",
+    "displayName": "KeeWeb",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-file": {},
+            "cordova-plugin-whitelist": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "^6.2.1",
+        "cordova-plugin-file": "~4.3.1",
+        "cordova-plugin-whitelist": "1"
+    }
+}
