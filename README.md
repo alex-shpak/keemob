@@ -1,7 +1,7 @@
 ## Cordova wrapper for [Keeweb](https://keeweb.info/)
 WARNING: Under early development
 
-![image](https://cloud.githubusercontent.com/assets/5515443/25104919/af170fba-23c2-11e7-963c-062d47eb991d.png)
+![keemob](https://cloud.githubusercontent.com/assets/5515443/26451042/9bbb9fb6-415a-11e7-9898-d5ef2fcd5068.gif)
 
 ## Licence
 [MIT](LICENCE.txt)
