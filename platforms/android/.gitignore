@@ -1,13 +1,11 @@
 # Non-project-specific build files:
 build.xml
 local.properties
-.idea
+
+# Gradle
 .gradle
-# Ant builds
-ant-build
-ant-gen
-# Eclipse builds
-gen
-out
-# Gradle builds
 build/
+# Idea
+.idea
+*.iml
+out
