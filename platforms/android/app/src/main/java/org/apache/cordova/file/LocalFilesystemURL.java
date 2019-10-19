@@ -20,6 +20,8 @@ package org.apache.cordova.file;
 
 import android.net.Uri;
 
+import java.io.File;
+
 public class LocalFilesystemURL {
 	
 	public static final String FILESYSTEM_PROTOCOL = "cdvfile";
@@ -50,7 +52,9 @@ public class LocalFilesystemURL {
         }
         String fsName = path.substring(1, firstSlashIdx);
         path = path.substring(firstSlashIdx);
-        boolean isDirectory = path.charAt(path.length() - 1) == '/';
+
+        // Partial change Alex Shpak (fix for '/' suffixes)
+        boolean isDirectory = uri.getEncodedPath().endsWith("/");
         return new LocalFilesystemURL(uri, fsName, path, isDirectory);
     }
 

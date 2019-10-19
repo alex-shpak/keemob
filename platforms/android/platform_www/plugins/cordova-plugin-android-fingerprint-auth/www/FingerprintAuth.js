@@ -58,6 +58,16 @@ FingerprintAuth.prototype.delete = function (params, successCallback, errorCallb
     );
 };
 
+FingerprintAuth.prototype.dismiss = function (successCallback, errorCallback) {
+    cordova.exec(
+        successCallback,
+        errorCallback,
+        "FingerprintAuth",  // Java Class
+        "dismiss", // action
+        [{}]
+    );
+};
+
 FingerprintAuth.prototype.isAvailable = function (successCallback, errorCallback) {
     cordova.exec(
         successCallback,

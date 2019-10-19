@@ -1,3 +1,23 @@
+# Version 1.50
+### What's New
+* Added new `dismiss()` action
+
+# Version 1.4.5
+### What's New
+* Added Korean translations
+    * merged pull request #125
+* Added index.d.ts for Typescript support
+    * merged pull request #118
+* Update German strings
+    * merged pull request #117
+
+# Version 1.4.4
+### What's New
+* Added Arabic translations
+    * merged pull request #114
+* Bug fix: KeyStore not initialized when trying to delete entry
+    * merged pull request #106
+
 # Version 1.4.3
 ### What's New
 * Added Thai translations

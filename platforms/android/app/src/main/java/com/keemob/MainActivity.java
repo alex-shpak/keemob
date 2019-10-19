@@ -20,9 +20,7 @@
 package com.keemob;
 
 import android.os.Bundle;
-import com.keemob.FileChooser;
-import org.apache.cordova.CordovaActivity;
-import org.apache.cordova.PluginEntry;
+import org.apache.cordova.*;
 
 public class MainActivity extends CordovaActivity {
     @Override

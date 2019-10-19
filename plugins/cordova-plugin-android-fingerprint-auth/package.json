@@ -1,8 +1,8 @@
 {
   "_from": "cordova-plugin-android-fingerprint-auth",
-  "_id": "cordova-plugin-android-fingerprint-auth@1.4.3",
+  "_id": "cordova-plugin-android-fingerprint-auth@1.5.0",
   "_inBundle": false,
-  "_integrity": "sha512-FYXtPxiemRg9Sb75ZC7yO/BD00bChqph/e19qA0LVl9eNEkVVMv22hingF+CXdGqmdstClKPqupf66Djdi7kGQ==",
+  "_integrity": "sha512-EozuBxIAo7rnIZajSWJIN8Re0KdExSlH9kxUqhYVUExzB4jQDm+JO2qcSGulXcoGsabqRgqR8XRuaoa+h+XSBQ==",
   "_location": "/cordova-plugin-android-fingerprint-auth",
   "_phantomChildren": {},
   "_requested": {
@@ -19,10 +19,10 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-android-fingerprint-auth/-/cordova-plugin-android-fingerprint-auth-1.4.3.tgz",
-  "_shasum": "58c34126390b7c4b61f0bf0a56b3437f32ee5971",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-android-fingerprint-auth/-/cordova-plugin-android-fingerprint-auth-1.5.0.tgz",
+  "_shasum": "bdfc0b1022de85d416784769af022361fb7b8ea0",
   "_spec": "cordova-plugin-android-fingerprint-auth",
-  "_where": "/Users/winterly/Projects/keemob/keemob",
+  "_where": "/Users/alexander.shpak/Projects/keemob",
   "author": {
     "name": "Matthew Wheatley"
   },
@@ -54,5 +54,5 @@
     "type": "git",
     "url": "git+https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth.git"
   },
-  "version": "1.4.3"
+  "version": "1.5.0"
 }

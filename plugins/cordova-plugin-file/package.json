@@ -1,33 +1,33 @@
 {
-  "_from": "cordova-plugin-file@6.0.1",
-  "_id": "cordova-plugin-file@6.0.1",
+  "_from": "cordova-plugin-file@6.0.2",
+  "_id": "cordova-plugin-file@6.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-SWBrjBWlaI1HKPkuSnMloGHeB/U=",
+  "_integrity": "sha512-m7cughw327CjONN/qjzsTpSesLaeybksQh420/gRuSXJX5Zt9NfgsSbqqKDon6jnQ9Mm7h7imgyO2uJ34XMBtA==",
   "_location": "/cordova-plugin-file",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-file@6.0.1",
+    "raw": "cordova-plugin-file@6.0.2",
     "name": "cordova-plugin-file",
     "escapedName": "cordova-plugin-file",
-    "rawSpec": "6.0.1",
+    "rawSpec": "6.0.2",
     "saveSpec": null,
-    "fetchSpec": "6.0.1"
+    "fetchSpec": "6.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-file/-/cordova-plugin-file-6.0.1.tgz",
-  "_shasum": "49606b8c15a5688d4728f92e4a7325a061de07f5",
-  "_spec": "cordova-plugin-file@6.0.1",
-  "_where": "/Users/winterly/Projects/keemob/keemob",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-file/-/cordova-plugin-file-6.0.2.tgz",
+  "_shasum": "f3911479f8357e9aacb5576674f8d95b31a1fb20",
+  "_spec": "cordova-plugin-file@6.0.2",
+  "_where": "/Users/alexander.shpak/Projects/keemob",
   "author": {
     "name": "Apache Software Foundation"
   },
   "bugs": {
-    "url": "https://issues.apache.org/jira/browse/CB"
+    "url": "https://github.com/apache/cordova-plugin-file/issues"
   },
   "bundleDependencies": false,
   "cordova": {
@@ -83,5 +83,5 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "6.0.1"
+  "version": "6.0.2"
 }

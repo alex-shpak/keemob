@@ -26,13 +26,12 @@ import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
 import com.keemob.FileWriter;
-import org.apache.cordova.CordovaResourceApi;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import org.apache.cordova.CordovaResourceApi;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class ContentFilesystem extends Filesystem {
 

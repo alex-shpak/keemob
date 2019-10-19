@@ -54,6 +54,7 @@ If you are not concerned with encrypting credentials and just want device authen
     * [encrypt(encryptConfig, successCallback, errorCallback)](#module_fingerprintauth.encrypt)
     * [decrypt(decryptConfig, successCallback, errorCallback)](#module_fingerprintauth.decrypt)  
     * [delete(deleteConfg, successCallback, errorCallback)](#module_fingerprintauth.delete)
+    * [dismiss(successCallback, errorCallback)](#module_fingerprintauth.dismiss)
     * [ERRORS](#module_fingerprintauth.errors)
 * [Config Object](#module_fingerprintauth.config)
 
@@ -108,7 +109,7 @@ function isAvailableError(message) {
 | token | String | undefined | Data to be decrypted. ***Required*** for `decrypt()`. |
 | disableBackup | boolean | false | Set to true to remove the "USE BACKUP" button |
 | maxAttempts | number | 5 | The device max is 5 attempts.  Set this parameter if you want to allow fewer than 5 attempts.  |
-| locale | String | "en_US" | Change the language displayed on the authentication dialog.<br/><ul><li>English: "en_US"</li><li>Italian: "it"</li><li>Spanish: "es"</li><li>Russian: "ru"</li><li>French: "fr"</li><li>Chinese (Simplified): <ul><li>"zh_CN"</li><li>"zh_SG"</li></ul></li><li>Chinese (Traditional): <ul><li>"zh"</li><li>"zh_HK"</li><li>"zh_TW"</li><li>"zh_MO"</li></ul></li><li>Norwegian: "no"</li><li>Portuguese: "pt"</li><li>Japanese: "ja"</li><li>German: "de"</li><li>Thai: "th"</li></ul> |
+| locale | String | "en_US" | Change the language displayed on the authentication dialog.<br/><ul><li>English: "en_US"</li><li>Italian: "it"</li><li>Spanish: "es"</li><li>Russian: "ru"</li><li>French: "fr"</li><li>Chinese (Simplified): <ul><li>"zh_CN"</li><li>"zh_SG"</li></ul></li><li>Chinese (Traditional): <ul><li>"zh"</li><li>"zh_HK"</li><li>"zh_TW"</li><li>"zh_MO"</li></ul></li><li>Norwegian: "no"</li><li>Portuguese: "pt"</li><li>Japanese: "ja"</li><li>German: "de"</li><li>Thai: "th"</li><li>Arabic: "ar"</li><li>Korean: "ko", "ko-KR"</li></ul> |
 | userAuthRequired | boolean | false | Require the user to authenticate with a fingerprint to authorize every use of the key.  New fingerprint enrollment will invalidate key and require backup authenticate to re-enable the fingerprint authentication dialog. |
 | encryptNoAuth | boolean | undefined | Bypass authentication and just encrypt input.  If `true` this option will not display the authentication dialog for fingerprint or backup credentials.  It will just encrypt the input and return a token. |
 | dialogTitle | String | undefined | Set the title of the fingerprint authentication dialog. |
@@ -233,6 +234,26 @@ function errorCallback(error) {
 }
 ```
 
+<a name="module_fingerprintauth.dismiss"></a>
+
+# FingerprintAuth.dismiss(successCallback, errorCallback)
+
+Used to dismiss a Fingerprint Authentication Dialog if one is being displayed
+
+**Example**
+
+```javascript
+FingerprintAuth.dismiss(successCallback, errorCallback);
+
+function successCallback(result) {
+    console.log("Successfully dismissed FingerprintAuth dialog: " + JSON.stringify(result));
+}
+
+function errorCallback(error) {
+    console.log(error);
+}
+```
+
 
 <a name="module_fingerprintauth.errors"></a>
 
@@ -257,3 +278,4 @@ function errorCallback(error) {
 | MISSING_PARAMETERS | String | "MISSING_PARAMETERS" |
 | NO_SUCH_ALGORITHM_EXCEPTION | String | "NO_SUCH_ALGORITHM_EXCEPTION" |
 | SECURITY_EXCEPTION | String | "SECURITY_EXCEPTION" |
+| FRAGMENT_NOT_EXIST | String | "FRAGMENT_NOT_EXIST |
