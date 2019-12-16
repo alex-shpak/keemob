@@ -20,10 +20,13 @@
 package com.keemob;
 
 import android.os.Bundle;
+import android.widget.Toast;
+
 import org.apache.cordova.*;
 
 public class MainActivity extends CordovaActivity
 {
+    private long backPressedAt = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -40,5 +43,16 @@ public class MainActivity extends CordovaActivity
 
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (backPressedAt + 2000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+            return;
+        }
+
+        Toast.makeText(this, "Press back again to exit", Toast.LENGTH_SHORT).show();
+        backPressedAt = System.currentTimeMillis();
     }
 }
