@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_fp_40px.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-xxhdpi/ic_fp_40px.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_fingerprint_error.xml.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_fingerprint_error.xml"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_fingerprint_error.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_fingerprint_error.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_fp_40px.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-xxxhdpi/ic_fp_40px.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_fp_40px.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-mdpi/ic_fp_40px.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_fingerprint_error.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-hdpi/ic_fingerprint_error.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_fingerprint_error.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-mdpi/ic_fingerprint_error.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_fingerprint_success.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_fingerprint_success.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_fingerprint_success.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_fingerprint_success.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_fingerprint_success.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_fingerprint_success.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/layout_fingerprint_dialog_content.xml.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/layout/fingerprint_dialog_content.xml"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_fingerprint_success.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_fingerprint_success.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_screen.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_fp_40px.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-xhdpi/ic_fp_40px.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_icon.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-nodpi_android_robot.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-nodpi/android_robot.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_fingerprint_error.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_fingerprint_error.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_fingerprint_error.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-ldpi/ic_fingerprint_error.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/xml_config.xml.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/xml/config.xml"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_fingerprint_success.xml.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_fingerprint_success.xml"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_fp_40px.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/drawable-hdpi/ic_fp_40px.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_fingerprint_success.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-hdpi/ic_fingerprint_success.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_fingerprint_success.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-mdpi/ic_fingerprint_success.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_fingerprint_error.png.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_fingerprint_error.png"
+    },
+    {
+        "merged": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/layout_fingerprint_dialog_container.xml.flat",
+        "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/layout/fingerprint_dialog_container.xml"
+    }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+    <color name="warning_color">#f4511e</color>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="app_name">Keemob</string>
+    <string name="cancel">Cancel</string>
+    <string name="fingerprint_auth_dialog_title">Fingerprint Authentication</string>
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint">Touch sensor</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again.</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="fingerprint_too_many_attempts">Too many attempts. Try again later.</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
+    <string name="ok">Ok</string>
+    <string name="secure_lock_screen_required">Secure lock screen required!</string>
+    <string name="use_backup">Use backup</string>
+</resources>

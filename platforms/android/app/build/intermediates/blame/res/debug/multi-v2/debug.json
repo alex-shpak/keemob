@@ -1,0 +1,434 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-zh-rHK/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,773,870,930,980,1049,1253,1104,836,1189,729",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "724,831,925,975,1044,1099,1320,1184,865,1248,768"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,156,216,266,335,390,462,547,581,645",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "88,151,211,261,330,385,457,542,576,640,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-no_values-no.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-no/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,793,899,989,1047,1146,1443,1219,865,1348,733",
+                        "endColumns": "41,71,89,57,98,72,96,128,33,94,59",
+                        "endOffsets": "728,860,984,1042,1141,1214,1535,1343,894,1438,788"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,169,259,317,416,489,586,715,749,844",
+                        "endColumns": "41,71,89,57,98,72,96,128,33,94,59",
+                        "endOffsets": "92,164,254,312,411,484,581,710,744,839,899"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-th/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "708,809,923,1007,1068,1159,1453,1228,886,1357,751",
+                        "endColumns": "41,75,82,59,89,67,101,127,35,94,56",
+                        "endOffsets": "745,880,1001,1062,1153,1222,1550,1351,917,1447,803"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,173,256,316,406,474,576,704,740,835",
+                        "endColumns": "41,75,82,59,89,67,101,127,35,94,56",
+                        "endOffsets": "92,168,251,311,401,469,571,699,735,830,887"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-zh-rCN/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,773,870,930,980,1049,1253,1104,836,1189,729",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "724,831,925,975,1044,1099,1320,1184,865,1248,768"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,156,216,266,335,390,462,547,581,645",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "88,151,211,261,330,385,457,542,576,640,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-fr/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,796,928,1018,1082,1180,1522,1247,894,1423,734",
+                        "endColumns": "42,97,89,63,97,66,107,175,33,98,61",
+                        "endOffsets": "729,889,1013,1077,1175,1242,1625,1418,923,1517,791"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,196,286,350,448,515,623,799,833,932",
+                        "endColumns": "42,97,89,63,97,66,107,175,33,98,61",
+                        "endOffsets": "93,191,281,345,443,510,618,794,828,927,989"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-de/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,791,913,1006,1101,1211,1513,1282,879,1432,736",
+                        "endColumns": "44,87,92,94,109,70,109,149,33,80,54",
+                        "endOffsets": "731,874,1001,1096,1206,1277,1618,1427,908,1508,786"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,188,281,376,486,557,667,817,851,932",
+                        "endColumns": "44,87,92,94,109,70,109,149,33,80,54",
+                        "endOffsets": "95,183,276,371,481,552,662,812,846,927,982"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,783,902,986,1044,1138,1433,1209,868,1348,733",
+                        "endColumns": "41,84,83,57,93,70,93,138,33,84,49",
+                        "endOffsets": "728,863,981,1039,1133,1204,1522,1343,897,1428,778"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "306,348,433,517,575,669,740,893,1032,1066,1151",
+                        "endColumns": "41,84,83,57,93,70,93,138,33,84,49",
+                        "endOffsets": "343,428,512,570,664,735,829,1027,1061,1146,1196"
+                    }
+                },
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "158,55,99",
+                        "endColumns": "63,43,58",
+                        "endOffsets": "217,94,153"
+                    },
+                    "to": {
+                        "startLines": "5,6,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "198,262,834",
+                        "endColumns": "63,43,58",
+                        "endOffsets": "257,301,888"
+                    }
+                },
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values/fpauth-colors.xml",
+                    "from": {
+                        "startLines": "18,19,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "739,786,691",
+                        "endColumns": "46,47,47",
+                        "endOffsets": "781,829,734"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,102,150",
+                        "endColumns": "46,47,47",
+                        "endOffsets": "97,145,193"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-es/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,787,922,1017,1076,1185,1518,1263,880,1424,735",
+                        "endColumns": "43,92,94,58,108,77,108,160,41,93,51",
+                        "endOffsets": "730,875,1012,1071,1180,1258,1622,1419,917,1513,782"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,192,287,346,455,533,642,803,845,939",
+                        "endColumns": "43,92,94,58,108,77,108,160,41,93,51",
+                        "endOffsets": "94,187,282,341,450,528,637,798,840,934,986"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-zh-rTW/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,773,870,930,980,1049,1253,1104,836,1189,729",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "724,831,925,975,1044,1099,1320,1184,865,1248,768"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,156,216,266,335,390,462,547,581,645",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "88,151,211,261,330,385,457,542,576,640,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-zh-rSG_values-zh-rSG.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-zh-rSG/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,773,870,930,980,1049,1253,1104,836,1189,729",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "724,831,925,975,1044,1099,1320,1184,865,1248,768"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,156,216,266,335,390,462,547,581,645",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "88,151,211,261,330,385,457,542,576,640,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-ru/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,799,926,1024,1087,1189,1506,1260,892,1414,733",
+                        "endColumns": "41,92,97,62,101,70,97,153,33,91,65",
+                        "endOffsets": "728,887,1019,1082,1184,1255,1599,1409,921,1501,794"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,190,288,351,453,524,622,776,810,902",
+                        "endColumns": "41,92,97,62,101,70,97,153,33,91,65",
+                        "endOffsets": "92,185,283,346,448,519,617,771,805,897,963"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-ja/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,781,878,948,1002,1078,1306,1136,844,1234,732",
+                        "endColumns": "40,62,69,53,75,57,79,97,33,71,48",
+                        "endOffsets": "727,839,943,997,1073,1131,1381,1229,873,1301,776"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,159,229,283,359,417,497,595,629,701",
+                        "endColumns": "40,62,69,53,75,57,79,97,33,71,48",
+                        "endOffsets": "91,154,224,278,354,412,492,590,624,696,745"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-pt/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,790,918,1015,1098,1198,1515,1277,884,1418,735",
+                        "endColumns": "43,93,96,82,99,78,116,140,33,96,54",
+                        "endOffsets": "730,879,1010,1093,1193,1272,1627,1413,913,1510,785"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,193,290,373,473,552,669,810,844,941",
+                        "endColumns": "43,93,96,82,99,78,116,140,33,96,54",
+                        "endOffsets": "94,188,285,368,468,547,664,805,839,936,991"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-zh-rMO_values-zh-rMO.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-zh-rMO/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,773,870,930,980,1049,1253,1104,836,1189,729",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "724,831,925,975,1044,1099,1320,1184,865,1248,768"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,156,216,266,335,390,462,547,581,645",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "88,151,211,261,330,385,457,542,576,640,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-ko/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,774,872,944,1001,1083,1311,1144,838,1238,729",
+                        "endColumns": "37,63,71,56,81,60,86,93,33,72,44",
+                        "endOffsets": "724,833,939,996,1078,1139,1393,1233,867,1306,769"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,157,229,286,368,429,516,610,644,717",
+                        "endColumns": "37,63,71,56,81,60,86,93,33,72,44",
+                        "endOffsets": "88,152,224,281,363,424,511,605,639,712,757"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-it/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,784,894,986,1048,1155,1486,1234,860,1392,734",
+                        "endColumns": "42,75,91,61,106,78,94,157,33,93,49",
+                        "endOffsets": "729,855,981,1043,1150,1229,1576,1387,889,1481,779"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,98,174,266,328,435,514,609,767,801,895",
+                        "endColumns": "42,75,91,61,106,78,94,157,33,93,49",
+                        "endOffsets": "93,169,261,323,430,509,604,762,796,890,940"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-zh_values-zh.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-zh/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,773,870,930,980,1049,1253,1104,836,1189,729",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "724,831,925,975,1044,1099,1320,1184,865,1248,768"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,156,216,266,335,390,462,547,581,645",
+                        "endColumns": "37,62,59,49,68,54,71,84,33,63,43",
+                        "endOffsets": "88,151,211,261,330,385,457,542,576,640,684"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-ar/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,794,911,988,1047,1136,1411,1199,874,1330,732",
+                        "endColumns": "40,79,76,58,88,62,106,130,36,80,61",
+                        "endOffsets": "727,869,983,1042,1131,1194,1513,1325,906,1406,789"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,96,176,253,312,401,464,571,702,739,820",
+                        "endColumns": "40,79,76,58,88,62,106,130,36,80,61",
+                        "endOffsets": "91,171,248,307,396,459,566,697,734,815,877"
+                    }
+                }
+            ]
+        }
+    ]
+}

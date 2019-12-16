@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">취소</string>
+    <string name="fingerprint_auth_dialog_title">지문 인증</string>
+    <string name="fingerprint_description">계속하기 위해 지문을 인식해주세요.</string>
+    <string name="fingerprint_hint">센서를 터치해주세요.</string>
+    <string name="fingerprint_not_recognized">지문이 인식되지 않았습니다. 다시 시도해주세요.</string>
+    <string name="fingerprint_success">지문이 인식되었습니다.</string>
+    <string name="fingerprint_too_many_attempts">시도가 너무 많습니다. 잠시 후 다시 시도해주세요.</string>
+    <string name="new_fingerprint_enrolled_description">새 지문이 저장되었습니다. 비밀번호를 입력해주세요.</string>
+    <string name="ok">확인</string>
+    <string name="secure_lock_screen_required">보안 잠금 화면이 필요합니다.</string>
+    <string name="use_backup">백업 사용</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">取消</string>
+    <string name="fingerprint_auth_dialog_title">指紋認證</string>
+    <string name="fingerprint_description">確認指紋以繼續</string>
+    <string name="fingerprint_hint">觸控感應</string>
+    <string name="fingerprint_not_recognized">指紋無法識別，請重試一次。</string>
+    <string name="fingerprint_success">指紋識別成功</string>
+    <string name="fingerprint_too_many_attempts">嘗試次數過多，請稍後再試。</string>
+    <string name="new_fingerprint_enrolled_description">新的指紋資料加入此裝置，需要您的密碼。</string>
+    <string name="ok">確定</string>
+    <string name="secure_lock_screen_required">需設定螢幕鎖定</string>
+    <string name="use_backup">使用備份</string>
+</resources>

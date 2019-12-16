@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.keemob" version="0.0.3" android-versionCode="102" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.keemob" version="0.0.4" android-versionCode="104" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Keemob</name>
     <description>
         Cordova wrapper for KeeWeb application
@@ -26,6 +26,5 @@
     </platform>
     <preference name="BackgroundColor" value="0xff282C34" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="27"/>
-
+    <preference name="android-targetSdkVersion" value="29"/>
 </widget>

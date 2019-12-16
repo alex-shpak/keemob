@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">ยกเลิก</string>
+    <string name="fingerprint_auth_dialog_title">ตรวจสอบลายนิ้วมือ</string>
+    <string name="fingerprint_description">ยืนยันลายนิ้วมือเพื่อดำเนินการ</string>
+    <string name="fingerprint_hint">เซนเซอร์สัมผัส</string>
+    <string name="fingerprint_not_recognized">ลายนิ้วมือที่ไม่รู้จัก ลองอีกครั้ง</string>
+    <string name="fingerprint_success">ลายนิ้วมือที่รู้จัก</string>
+    <string name="fingerprint_too_many_attempts">ใช้ความพยายามมากเกินไป โปรดลองใหม่ในภายหลัง</string>
+    <string name="new_fingerprint_enrolled_description">ลายนิ้วมือใหม่ถูกเพิ่มในอุปกรณ์นี้ จำเป็นต้องใช้รหัสผ่านของคุณ</string>
+    <string name="ok">ตกลง</string>
+    <string name="secure_lock_screen_required">จำเป็นต้องมีหน้าจอล็อคที่มีความปลอดภัย</string>
+    <string name="use_backup">ใช้การสำรองข้อมูล</string>
+</resources>

@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,783,902,986,1044,1138,1433,1209,868,1348,733",
+                        "endColumns": "41,84,83,57,93,70,93,138,33,84,49",
+                        "endOffsets": "728,863,981,1039,1133,1204,1522,1343,897,1428,778"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "306,348,433,517,575,669,740,893,1032,1066,1151",
+                        "endColumns": "41,84,83,57,93,70,93,138,33,84,49",
+                        "endOffsets": "343,428,512,570,664,735,829,1027,1061,1146,1196"
+                    }
+                },
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "158,55,99",
+                        "endColumns": "63,43,58",
+                        "endOffsets": "217,94,153"
+                    },
+                    "to": {
+                        "startLines": "5,6,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "198,262,834",
+                        "endColumns": "63,43,58",
+                        "endOffsets": "257,301,888"
+                    }
+                },
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values/fpauth-colors.xml",
+                    "from": {
+                        "startLines": "18,19,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "739,786,691",
+                        "endColumns": "46,47,47",
+                        "endOffsets": "781,829,734"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,102,150",
+                        "endColumns": "46,47,47",
+                        "endOffsets": "97,145,193"
+                    }
+                }
+            ]
+        }
+    ]
+}

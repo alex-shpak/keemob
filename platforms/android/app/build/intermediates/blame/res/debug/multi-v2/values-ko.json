@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
+            "map": [
+                {
+                    "source": "/Users/alexander.shpak/Projects/keemob/platforms/android/app/src/main/res/values-ko/fpauth-strings.xml",
+                    "from": {
+                        "startLines": "17,19,21,22,23,24,27,25,20,26,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "691,774,872,944,1001,1083,1311,1144,838,1238,729",
+                        "endColumns": "37,63,71,56,81,60,86,93,33,72,44",
+                        "endOffsets": "724,833,939,996,1078,1139,1393,1233,867,1306,769"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,157,229,286,368,429,516,610,644,717",
+                        "endColumns": "37,63,71,56,81,60,86,93,33,72,44",
+                        "endOffsets": "88,152,224,281,363,424,511,605,639,712,757"
+                    }
+                }
+            ]
+        }
+    ]
+}

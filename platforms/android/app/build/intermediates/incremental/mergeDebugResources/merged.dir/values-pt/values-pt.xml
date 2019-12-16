@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="fingerprint_auth_dialog_title">Autenticação por impressão digital.</string>
+    <string name="fingerprint_description">Confirme a impressão digital para continuar.</string>
+    <string name="fingerprint_hint">Toque no leitor de impressão digital.</string>
+    <string name="fingerprint_not_recognized">Impressão digital inválida. Tente novamente.</string>
+    <string name="fingerprint_success">Impressão digital reconhecida.</string>
+    <string name="fingerprint_too_many_attempts">Número de tentativas excedido, tente novamente mais tarde.</string>
+    <string name="new_fingerprint_enrolled_description">Uma nova impressão digital foi adicionada ao dispositivo, digite sua senha.</string>
+    <string name="ok">Ok</string>
+    <string name="secure_lock_screen_required">Digite o código para desbloquear a tela!</string>
+    <string name="use_backup">Utilizar Backup</string>
+</resources>

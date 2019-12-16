@@ -511,9 +511,6 @@ public class NativeToJsMessageQueue {
                             .append(pluginResult.getMessage())
                             .append("')");
                     break;
-                case PluginResult.MESSAGE_TYPE_NULL:
-                    sb.append("null");
-                    break;
                 default:
                     sb.append(pluginResult.getMessage());
             }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">キャンセル</string>
+    <string name="fingerprint_auth_dialog_title">指紋認証</string>
+    <string name="fingerprint_description">続行するには指紋を確認してください</string>
+    <string name="fingerprint_hint">タッチ・センサー</string>
+    <string name="fingerprint_not_recognized">指紋を認識できません。再試行してください</string>
+    <string name="fingerprint_success">指紋を認識しました</string>
+    <string name="fingerprint_too_many_attempts">試行が多すぎます。後で再試行してください。</string>
+    <string name="new_fingerprint_enrolled_description">新しい指紋をこのデバイスに追加します。パスワードが必要になります</string>
+    <string name="ok">OK</string>
+    <string name="secure_lock_screen_required">セキュア・ロック画面が必要です</string>
+    <string name="use_backup">バックアップを使用</string>
+</resources>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="102" id="com.keemob" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget android-versionCode="104" id="com.keemob" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="FingerprintAuth">
+        <param name="android-package" value="com.cordova.plugin.android.fingerprintauth.FingerprintAuth" />
+    </feature>
     <feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
         <param name="onload" value="true" />
     </feature>
     <allow-navigation href="cdvfile:*" />
-    <feature name="FingerprintAuth">
-        <param name="android-package" value="com.cordova.plugin.android.fingerprintauth.FingerprintAuth" />
-    </feature>
     <feature name="Whitelist">
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
@@ -33,5 +33,5 @@
     <preference name="loglevel" value="DEBUG" />
     <preference name="BackgroundColor" value="0xff282C34" />
     <preference name="android-minSdkVersion" value="19" />
-    <preference name="android-targetSdkVersion" value="27" />
+    <preference name="android-targetSdkVersion" value="29" />
 </widget>

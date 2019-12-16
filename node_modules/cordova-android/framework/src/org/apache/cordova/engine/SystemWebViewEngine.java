@@ -121,8 +121,9 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
                 SystemWebViewEngine.this.cordova.getActivity().runOnUiThread(r);
             }
         }));
-        nativeToJsMessageQueue.addBridgeMode(new NativeToJsMessageQueue.EvalBridgeMode(this, cordova));
-        bridge = new CordovaBridge(pluginManager, nativeToJsMessageQueue);
+        if(Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR2)
+            nativeToJsMessageQueue.addBridgeMode(new NativeToJsMessageQueue.EvalBridgeMode(this, cordova));
+	bridge = new CordovaBridge(pluginManager, nativeToJsMessageQueue);
         exposeJsInterface(webView, bridge);
     }
 
@@ -152,8 +153,26 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
         settings.setJavaScriptCanOpenWindowsAutomatically(true);
         settings.setLayoutAlgorithm(LayoutAlgorithm.NORMAL);
 
-        String manufacturer = android.os.Build.MANUFACTURER;
-        LOG.d(TAG, "CordovaWebView is running on device made by: " + manufacturer);
+        // Set the nav dump for HTC 2.x devices (disabling for ICS, deprecated entirely for Jellybean 4.2)
+        try {
+            Method gingerbread_getMethod =  WebSettings.class.getMethod("setNavDump", new Class[] { boolean.class });
+
+            String manufacturer = android.os.Build.MANUFACTURER;
+            LOG.d(TAG, "CordovaWebView is running on device made by: " + manufacturer);
+            if(android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.HONEYCOMB &&
+                    android.os.Build.MANUFACTURER.contains("HTC"))
+            {
+                gingerbread_getMethod.invoke(settings, true);
+            }
+        } catch (NoSuchMethodException e) {
+            LOG.d(TAG, "We are on a modern version of Android, we will deprecate HTC 2.3 devices in 2.8");
+        } catch (IllegalArgumentException e) {
+            LOG.d(TAG, "Doing the NavDump failed with bad arguments");
+        } catch (IllegalAccessException e) {
+            LOG.d(TAG, "This should never happen: IllegalAccessException means this isn't Android anymore");
+        } catch (InvocationTargetException e) {
+            LOG.d(TAG, "This should never happen: InvocationTargetException means this isn't Android anymore.");
+        }
 
         //We don't save any form data in the application
         settings.setSaveFormData(false);
@@ -161,9 +180,12 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
 
         // Jellybean rightfully tried to lock this down. Too bad they didn't give us a whitelist
         // while we do this
-        settings.setAllowUniversalAccessFromFileURLs(true);
-        settings.setMediaPlaybackRequiresUserGesture(false);
-
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN) {
+            settings.setAllowUniversalAccessFromFileURLs(true);
+        }
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            settings.setMediaPlaybackRequiresUserGesture(false);
+        }
         // Enable database
         // We keep this disabled because we use or shim to get around DOM_EXCEPTION_ERROR_16
         String databasePath = webView.getContext().getApplicationContext().getDir("database", Context.MODE_PRIVATE).getPath();
@@ -173,7 +195,8 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
 
         //Determine whether we're in debug or release mode, and turn on Debugging!
         ApplicationInfo appInfo = webView.getContext().getApplicationContext().getApplicationInfo();
-        if ((appInfo.flags & ApplicationInfo.FLAG_DEBUGGABLE) != 0) {
+        if ((appInfo.flags & ApplicationInfo.FLAG_DEBUGGABLE) != 0 &&
+            android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT) {
             enableRemoteDebugging();
         }
 
@@ -221,6 +244,7 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
         // end CB-1405
     }
 
+    @TargetApi(Build.VERSION_CODES.KITKAT)
     private void enableRemoteDebugging() {
         try {
             WebView.setWebContentsDebuggingEnabled(true);
@@ -230,9 +254,17 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
         }
     }
 
-    // Yeah, we know. It'd be great if lint was just a little smarter.
+    // Yeah, we know, which is why we makes ure that we don't do this if the bridge is
+    // below JELLYBEAN_MR1.  It'd be great if lint was just a little smarter.
     @SuppressLint("AddJavascriptInterface")
     private static void exposeJsInterface(WebView webView, CordovaBridge bridge) {
+        if ((Build.VERSION.SDK_INT < Build.VERSION_CODES.JELLY_BEAN_MR1)) {
+            LOG.i(TAG, "Disabled addJavascriptInterface() bridge since Android version is old.");
+            // Bug being that Java Strings do not get converted to JS strings automatically.
+            // This isn't hard to work-around on the JS side, but it's easier to just
+            // use the prompt bridge instead.
+            return;
+        }
         SystemExposedJsApi exposedJsApi = new SystemExposedJsApi(bridge);
         webView.addJavascriptInterface(exposedJsApi, "_cordovaNative");
     }
@@ -314,6 +346,12 @@ public class SystemWebViewEngine implements CordovaWebViewEngine {
 
     @Override
     public void evaluateJavascript(String js, ValueCallback<String> callback) {
-        webView.evaluateJavascript(js, callback);
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            webView.evaluateJavascript(js, callback);
+        }
+        else
+        {
+            LOG.d(TAG, "This webview is using the old bridge");
+        }
     }
 }

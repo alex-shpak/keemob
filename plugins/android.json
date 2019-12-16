@@ -7,10 +7,10 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-file": {
+    "cordova-plugin-android-fingerprint-auth": {
       "PACKAGE_NAME": "com.keemob"
     },
-    "cordova-plugin-android-fingerprint-auth": {
+    "cordova-plugin-file": {
       "PACKAGE_NAME": "com.keemob"
     },
     "cordova-plugin-whitelist": {

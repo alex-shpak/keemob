@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Avbryt</string>
+    <string name="fingerprint_auth_dialog_title">Fingeravtrykk</string>
+    <string name="fingerprint_description">Bekreft fingeravtrykk for å fortsette</string>
+    <string name="fingerprint_hint">Berør sensor</string>
+    <string name="fingerprint_not_recognized">Fingeravtrykk ikke gjenkjent. Forsøk igjen.</string>
+    <string name="fingerprint_success">Fingeravtrykk verifisert</string>
+    <string name="fingerprint_too_many_attempts">For mange forsøk. Forsøk igjen senere.</string>
+    <string name="new_fingerprint_enrolled_description">Et nytt fingeravtrykk er lagt til på enheten. Bekreft PIN-kode.</string>
+    <string name="ok">Ok</string>
+    <string name="secure_lock_screen_required">Enhetssikerhet med skjermlås påkrevet!</string>
+    <string name="use_backup">Bruk enhetssikkerhet</string>
+</resources>

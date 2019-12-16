@@ -20,8 +20,6 @@ package org.apache.cordova.file;
 
 import android.net.Uri;
 
-import java.io.File;
-
 public class LocalFilesystemURL {
 	
 	public static final String FILESYSTEM_PROTOCOL = "cdvfile";
