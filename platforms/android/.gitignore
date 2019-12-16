@@ -11,6 +11,7 @@ ant-gen
 gen
 out
 # Gradle build artifacts
+.gradle
 .gradletasknamecache
 /build
 /CordovaLib/build
